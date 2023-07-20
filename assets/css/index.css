@@ -72,30 +72,30 @@ button.btn {
  	Section One
 ----------------*/
 
-.sec-one {
+.section-one {
 	background-color: var(--light-grey-bg-color);
 	color: var(--primary-color);
 }
 
-.sec-one h1 {
+.section-one h1 {
 	font-family: 'Avenir Heavy';
 	font-size: 38px;
 	line-height: 110%;
 	max-width: 820px;
 }
 
-.sec-one h2 {
+.section-one h2 {
 	font-family: 'Avenir Medium';
 	font-size: 25px;
 	margin-bottom: 30px;
 	max-width: 320px;
 }
 
-.sec-one > .text-container {
+.section-one > .text-container {
 	margin-bottom: 20px;
 }
 
-.sec-one .text-container i {
+.section-one .text-container i {
 	float: left;
 	animation: slide 1s ease-in-out infinite;
 	margin-right: 10px;
@@ -111,14 +111,14 @@ button.btn {
   }
 }
 
-.sec-one .text-container p {
+.section-one .text-container p {
 	font-family: 'Avenir Medium';
 	font-size: 16px;
 	line-height: 130%;
 	margin-left: 20px;
 }
 
-.sec-one hr {
+.section-one hr {
 	border: 0;
 	border-bottom: 1px solid var(--secondary-color);
 	margin: 30px 0;
@@ -126,41 +126,41 @@ button.btn {
 	max-width: 320px;
 }
 
-.sec-one > .video-container {
+.section-one > .video-container {
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
 
-.sec-one .video-container iframe {
+.section-one .video-container iframe {
 	height: 445px;
 	width: 830px;
 }
 
-.sec-one button {
+.section-one button {
 	padding: 30px 35px;
 	margin-top: 15px;
 	margin-bottom: 25px;
 }
 
-.sec-one .payment-forms {
+.section-one .payment-forms {
 	margin: auto;
 }
 
-.sec-one .grid {
+.section-one .grid {
 	margin-top: 35px;
 	margin-bottom: 60px;
 }
 
-.sec-one .grid li {
+.section-one .grid li {
 	padding: 0 10px;
 }
 
-.sec-one .grid li img {
+.section-one .grid li img {
 	margin: auto;
 	height: 29px;
 }
 
-.sec-one .grid li h4 {
+.section-one .grid li h4 {
 	font-family: 'Avenir Heavy';
 	color: var(--secondary-color);
   font-size: 14px;
@@ -171,18 +171,18 @@ button.btn {
  	Section Ten
 ----------------*/
 
-.sec-ten {
+.section-ten {
 	background-color: var(--light-green-bg-color);
 	padding: 60px 0;
 }
 
-.sec-ten h1 {
+.section-ten h1 {
 	font-family: 'Avenir Heavy';
 	font-size: 38px;
 	line-height: 110%;
 }
 
-.sec-ten p {
+.section-ten p {
 	max-width: 500px;
 	font-family: 'Avenir Medium';
 	font-size: 20px;
@@ -190,17 +190,17 @@ button.btn {
 	margin: 35px 0;
 }
 
-.sec-ten button {
+.section-ten button {
 	padding: 19px 30px;
 	display: inline-flex;
 	align-items: center;
 }
 
-.sec-ten button i {
+.section-ten button i {
 	font-size: 20px;
 }
 
-.sec-ten button span {
+.section-ten button span {
 	margin-left: 8px;
   margin-top: 2px;
 }
