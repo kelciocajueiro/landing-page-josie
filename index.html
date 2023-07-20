@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.12.3/cdn.min.js" defer></script>
     <link rel="icon" type="image/x-icon" href="/favicon.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
     <title>M&#233;todo Content Codes</title>
   </head>
 
-  <body class="antialiased">
+  <body>
 
     <!-- Logo -->
     <header>
@@ -20,7 +20,7 @@
 
     <section class="sec-one">
       <h1>Transforme conte&#250;do em dinheiro e seguidor em cliente com o m&#233;todo content CODES!</h1>
-      <hr />
+      <hr>
       <h2>Assista o v&#237;deo e descubra:</h2>
       
       <div class="text-container max-w-[400px]">
@@ -39,7 +39,7 @@
       </div>
 
       <div class="video-container">
-        <iframe src="http://www.youtube.com/embed/7X8II6J-6mU" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/7X8II6J-6mU" frameborder="0"></iframe>
       </div>
 
       <button type="button">Quero transformar seguidor em cliente</button>
@@ -59,7 +59,193 @@
           <h4>Garantia de 30 dias</h4>
         </li>
       </div>
+    </section>
 
+    <section class="sec-faq">
+      <div class="accordion" x-data="{selected:null}">
+        <h1>D&#250;vidas Frequentes</h1>
+        <div class="acc-container" x-bind:class="selected == 0 && 'is-active'" @click="selected !== 0 ? selected = 0 : selected = null" x-transition.duration.500ms>
+          <div class="question">Funciona para quem est&#225; começando do zero ou n&#227;o tem experi&#234;ncia com Marketing?</div>
+          <div class="answer" x-show="selected == 0" x-transition:enter.duration.500ms>
+            <p>Com certeza! O content CODES foi desenvolvido pra quem est&#225; come&#231;ando do
+              zero no digital e no marketing. A &#250;nica coisa que voc&#234; precisa saber &#233; usar o
+              Instagram! Ele foi desenvolvido para profissionais que prestam servi&#231;o e que
+              querem usar o Instagram como vitrine pra capta&#231;&#227;o de clientes. O meu m&#233;todo &#233;
+              composto por 4 pilares que v&#227;o te conduzir por um caminho claro que vai
+              transformar voc&#234; num expert na comunica&#231;&#227;o e nas vendas. Ao aplicar os
+              conhecimentos que ensino nas aulas, v&#227;o ser os seus seguidores que vir&#227;o at&#233;
+              voc&#234; pedindo pelo seu produto.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 1 && 'is-active'" @click="selected !== 1 ? selected = 1 : selected = null">
+          <div class="question">Funciona para quem tem produto de ticket alto?</div>
+          <div class="answer" x-show="selected == 1" x-transition:enter.duration.500ms>
+            <p>O content CODES &#233; perfeito pra quem tem ticket alto! L&#225; dentro voc&#234; ter&#225; acesso a
+              um conjunto de ferramentas super poderosas que foram desenvolvidas
+              especialmente pra gerar desejo pelo seu trabalho e por tudo o que voc&#234; vende.
+              Uma dessas ferramentas &#233; a Equa&#231;&#227;o de Valor: uma f&#243;rmula capaz de elevar em
+              10 vezes a percep&#231;&#227;o de valor de qualquer produto ou servi&#231;o. Pense
+              num produto, servi&#231;o ou experi&#234;ncia que você sonha em ter, mas ainda n&#227;o tem
+              dinheiro suficiente pra pagar por ele. Agora, imagine que a empresa que vende
+              esse produto te desse 24 horas pra você comprar pagando 10% do valor. O que
+              voc&#234; faria pra conseguir o dinheiro? Bem, eu acho que você j&#225; deve ter entendido o
+              poder dessa ferramenta. Ela &#233; respons&#225;vel por moldar sua oferta pra gerar na
+              mente do seu cliente o pensamento de que ele est&#225; “tirando vantagem” de voc&#234;.
+              Quando voc&#234; aplicar essa e outras t&#233;cnicas que vou te ensinar, vender seu servi&#231;o
+              ou produto de alto ticket se tornar&#225; uma tarefa simples.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 2 && 'is-active'" @click="selected !== 2 ? selected = 2 : selected = null">
+          <div class="question">Funciona para quem tem produto de ticket baixo?</div>
+          <div class="answer" x-show="selected == 2" x-transition:enter.duration.500ms>
+            <p>Sim! Os pilares 2 (Concep&#231;&#227;o do DNA de Marca) e 4 (Modelo das 3 For&#231;as da
+              Oferta) foram criados justamente com esse prop&#243;sito. Neles voc&#234; ter&#225; todo o
+              conhecimento e as ferramentas que precisa pra criar uma marca pessoal de
+              destaque e uma oferta irresist&#237;vel. Essa combina&#231;&#227;o &#233; altamente eficaz quando o
+              assunto &#233; elevar percep&#231;&#227;o de valor do seu servi&#231;o ou produto.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 3 && 'is-active'" @click="selected !== 3 ? selected = 3 : selected = null">
+          <div class="question">Funciona para quem tem produto de ticket baixo?</div>
+          <div class="answer" x-show="selected == 3" x-transition:enter.duration.500ms>
+            <p>Sim! Os pilares 2 (Concep&#231;&#227;o do DNA de Marca) e 4 (Modelo das 3 For&#231;as da
+              Oferta) foram criados justamente com esse prop&#243;sito. Neles voc&#234; ter&#225; todo o
+              conhecimento e as ferramentas que precisa pra criar uma marca pessoal de
+              destaque e uma oferta irresist&#237;vel. Essa combina&#231;&#227;o &#233; altamente eficaz quando o
+              assunto &#233; elevar percep&#231;&#227;o de valor do seu servi&#231;o ou produto.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 4 && 'is-active'" @click="selected !== 4 ? selected = 4 : selected = null">
+          <div class="question">Funciona para vender mentoria?</div>
+          <div class="answer" x-show="selected == 4" x-transition:enter.duration.500ms>
+            <p>Funciona muito! Tanto para mentoria individual ou em grupo, ou ainda presencial
+              ou online. O content CODES tem exatamente o que mentores, consultores,
+              coaches e qualquer outro profissional liberal e aut&#244;nomo precisam pra construir
+              uma marca pessoal forte que vai gerar diferencia&#231;&#227;o e desejo no seu cliente. Se
+              voc&#234; quer ver a sua DM lotada de mensagens, o meu m&#233;todo &#233; perfeito pra voc&#234;!</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 5 && 'is-active'" @click="selected !== 5 ? selected = 5 : selected = null">
+          <div class="question">Funciona para produto f&#237;sico?</div>
+          <div class="answer" x-show="selected == 5" x-transition:enter.duration.500ms>
+            <p>O m&#233;todo content CODES foi pensado especialmente pra profissionais liberais e
+              aut&#244;nomos que querem ter pessoas batendo no seu direct pedindo seu servi&#231;o
+              todo dia. Por&#233;m, tudo o que compartilho nele, tamb&#233;m pode ser adaptado para
+              quem vende produtos f&#237;sicos. Ao passar pelos 4 pilares voc&#234; entender&#225; seu p&#250;blico
+              alvo num n&#237;vel profundo, ser&#225; capaz de posicionar o seu produto de forma
+              estrat&#233;gica pra se diferenciar da concorr&#234;ncia e dominar&#225; a arte de comunicar pra
+              gerar vendas sem ter que ficar correndo atr&#225;s de ningu&#233;m.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 6 && 'is-active'" @click="selected !== 6 ? selected = 6 : selected = null">
+          <div class="question">Funciona para servi&#231;os?</div>
+          <div class="answer" x-show="selected == 6" x-transition:enter.duration.500ms>
+            <p>Com certeza! Tudo o que desenvolvi e escolhi colocar no meu m&#233;todo foi
+              pensando especificamente em profissionais liberais e aut&#244;nomos que querem usar
+              o Instagram como vitrine para capta&#231;&#227;o de clientes. Ao colocar em pr&#225;tica o que
+              ensino, voc&#234; ser&#225; capaz de criar um fluxo cont&#237;nuo de atra&#231;&#227;o qualificada, reten&#231;&#227;o
+              e vendas no seu perfil. Melhor ainda: você n&#227;o vai mais ter que ficar correndo atr&#225;s
+              de ningu&#233;m, tentando convencer seu prospecto e muito menos tendo que dar
+              desconto para ver se consegue fechar uma venda. Os conhecimentos que vou te
+              entregar ser&#227;o capazes de despertar tanto desejo no seu público alvo que talvez
+              voc&#234; tenha que elevar o seu pre&#231;o pra poder nivelar com a demanda.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 7 && 'is-active'" @click="selected !== 7 ? selected = 7 : selected = null">
+          <div class="question">Funciona para qualquer nicho?</div>
+          <div class="answer" x-show="selected == 7" x-transition:enter.duration.500ms>
+            <p>Sim! O que ensino no meu m&#233;todo n&#227;o tem nada a ver com trends, hacks ou
+              qualquer conceito raso e passageiro que voc&#234; j&#225; viu por a&#237;. O content CODES foi
+              desenvolvido com base em estudos da mente e do comportamento humano,
+              juntamente com os fundamentos do marketing. Portanto, se seu objetivo &#233; usar o
+              Instagram para vender seu servi&#231;o ou produto, se destacar no seu nicho e ter
+              pessoas batendo na sua DM pedindo pelo seu link de compra, tudo o que voc&#234;
+              encontrar&#225; no meu m&#233;todo vai servir como um GPS pra te levar aos resultados que deseja.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 8 && 'is-active'" @click="selected !== 8 ? selected = 8 : selected = null">
+          <div class="question">Ensina tr&#225;fego?</div>
+          <div class="answer" x-show="selected == 8" x-transition:enter.duration.500ms>
+            <p>O content CODES n&#227;o &#233; um curso de tr&#225;fego, mas vai te ensinar a usar
+              esse recurso pra atrair p&#250;blico comprador investindo o m&#237;nimo necess&#225;rio e sem complica&#231;&#227;o.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 9 && 'is-active'" @click="selected !== 9 ? selected = 9 : selected = null">
+          <div class="question">Ensina copy?</div>
+          <div class="answer" x-show="selected == 9" x-transition:enter.duration.500ms>
+            <p>O content CODES n&#227;o &#233; um curso de copy, mas ao concluir os 4 pilares voc&#234;
+              entender&#225; como a nossa mente funciona e dominar&#225; a arte de comunicar, despertar desejo e vender.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 10 && 'is-active'" @click="selected !== 10 ? selected = 10 : selected = null">
+          <div class="question">J&#225; fiz v&#225;rios cursos e nada funcionou pra mim, o content CODES vai mesmo funcionar?</div>
+          <div class="answer" x-show="selected == 10" x-transition:enter.duration.500ms>
+            <p>Sim e n&#227;o! Deixa eu explicar: antes de criar o content CODES, eu comprei e
+              consumi v&#225;rios cursos de marketing do Brasil (desde os mais baratos at&#233; os
+              mais caros). Eu queria entender o n&#237;vel de informa&#231;&#227;o que &#233; entregue no mercado
+              atualmente. 95% deles foram uma decep&#231;&#227;o e uma completa perda de dinheiro.
+              Por isso, existe uma grande chance de voc&#234; s&#243; ter consumido informa&#231;&#227;o raza que
+              n&#227;o te leva a lugar nenhum e isso justifica sua falta de resultado. Mas, pode ser
+              que voc&#234; j&#225; tenha consumido alguns dos poucos cursos que s&#227;o bons. Se esse for
+              o seu caso e mesmo assim ele “n&#227;o funcionou pra voc&#234;”, pode ser que o problema
+              neste caso seja voc&#234;. N&#227;o me leve a mal, o content CODES &#233; extremamente
+              poderoso e tudo que tem l&#225; dentro pode transformar sua vida profissional de
+              verdade, por&#233;m n&#227;o &#233; milagre! Voc&#234; vai ter que dedicar tempo pra estudar e aplicar o que ensino.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 11 && 'is-active'" @click="selected !== 11 ? selected = 11 : selected = null">
+          <div class="question">Terei um espaço para tirar d&#250;vidas?</div>
+          <div class="answer" x-show="selected == 11" x-transition:enter.duration.500ms>
+            <p>Sim! Voc&#234; ter&#225; acesso ao nosso suporte de segunda a sexta pelo e-mail e
+              WhatsApp, onde poder&#225; tirar qualquer d&#250;vida que surgir ao longo das aulas. Al&#233;m
+              disso, eu estarei ao vivo com os alunos 1 vez por m&#234;s para garantir que voc&#234; n&#227;o
+              fique travado durante o seu processo.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 12 && 'is-active'" @click="selected !== 12 ? selected = 12 : selected = null">
+          <div class="question">O que acontece caso eu n&#227;o me identifique com o conte&#250;do?</div>
+          <div class="answer" x-show="selected == 12" x-transition:enter.duration.500ms>
+            <p>O content CODES foi desenvolvido e organizado da maneira mais dit&#225;dica
+              possível. Por isso, te garanto que mesmo os conceitos mais avan&#231;ados que ensino
+              l&#225; dentro ser&#227;o facilmente entend&#237;veis e aplic&#225;veis. Mesmo assim, quero que tenha
+              total tranquilidade para decidir se esse m&#233;todo serve ou n&#227;o pra voc&#234;. Por isso,
+              voc&#234; tem 30 dias de garantia pra consumir as aulas, usar as ferramentas,
+              suporte... Tudo mesmo! Se por qualquer raz&#227;o voc&#234; achar que meu m&#233;todo n&#227;o foi
+              um divisor de &#225;guas na sua vida, &#233; s&#243; acionar a garantia que eu devolvo todo o seu
+              dinheiro sem pedir justificativas.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 13 && 'is-active'" @click="selected !== 13 ? selected = 13 : selected = null">
+          <div class="question">Quanto tempo terei acesso ao conte&#250;do?</div>
+          <div class="answer" x-show="selected == 13" x-transition:enter.duration.500ms>
+            <p>As aulas, ferramentas, encontros ao vivo e suporte ficar&#227;o dispon&#237;veis por 1 ano 
+              pra voc&#234; rever e usar quantas vezes quiser.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="acc-container" x-bind:class="selected == 14 && 'is-active'" @click="selected !== 14 ? selected = 14 : selected = null">
+          <div class="question">As aulas s&#227;o ao vivo?</div>
+          <div class="answer" x-show="selected == 14" x-transition:enter.duration.500ms>
+            <p>N&#227;o, as aulas s&#227;o gravadas. Por&#233;m, teremos 1 encontro ao vivo todo m&#234;s com
+              todos os alunos, onde eu respondo todas as suas d&#250;vidas pessoalmente. Al&#233;m
+              disso, temos um suporte capacitado que fica dispon&#237;vel de segunda a sexta pelo e-mail e WhatsApp.
+              Neste suporte, voc&#234; tamb&#233;m poder&#225; mandar as d&#250;vidas que forem surgindo ao longo das aulas.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
