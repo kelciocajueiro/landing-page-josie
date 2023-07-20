@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  font-family: "Avenir Heavy Oblique";
+  src: url("../fonts/Avenir-HeavyOblique.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Avenir Light";
   src: url("../fonts/Avenir-Light.ttf") format("truetype");
 }

@@ -168,6 +168,38 @@ button.btn {
 }
 
 /*----------------
+ 	Section Five
+----------------*/
+
+.section-five {
+	background-color: var(--primary-color);
+	padding: 20px 0 125px 0;
+}
+
+.section-five hr {
+	border: 1px solid white;
+	width: 42px;
+	margin-top: 45px;
+	margin-bottom: 5px;
+}
+
+.section-five p {
+	font-family: 'Avenir Medium';
+	font-size: 20px;
+	line-height: 110%;
+	color: white;
+	margin-top: 30px;
+}
+
+.section-five p:last-child {
+	font-size: 22px;
+}
+
+.section-five p span {
+	font-family: 'Avenir-HeavyOblique';
+}
+
+/*----------------
  	Section Ten
 ----------------*/
 
