@@ -27,3 +27,8 @@
   font-family: "Avenir Medium";
   src: url("../fonts/Avenir-Medium.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Avenir Roman";
+  src: url("../fonts/Avenir-Roman.ttf") format("truetype");
+}

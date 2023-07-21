@@ -1,0 +1,129 @@
+@import url("styles.css");
+
+/*----------------
+ 	Smartphones
+----------------*/
+@media screen and (max-width: 400px) {
+
+  header img {
+    width: 100px;
+  }
+
+  /*----------------
+    Section One
+  ----------------*/
+
+  .section-one {
+    padding: 0 25px;
+  }
+
+  .section-one h1 {
+    max-width: 290px;
+    font-size: 24px;
+  }
+
+  .section-one hr {
+    max-width: 60px;
+  }
+
+  .section-one h2 {
+    font-size: 20px;
+  }
+
+  .section-one .text-container img {
+    margin-top: 5px;
+    width: 10px;
+  }
+
+  .section-one .text-container p {
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .section-one > .video-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 310px;
+    height: 235px;
+  }
+
+  .section-one button {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 14px 17px;
+    font-size: 12px;
+  }
+
+  .section-one .payment-forms {
+    width: 135px;
+  }
+
+  .section-one .grid {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .section-one .grid li img {
+    height: 15px;
+  }
+
+  .section-one .grid li h4 {
+    margin-top: 3px;
+    font-size: 7px;
+  }
+
+  /*----------------
+    Section Five
+  ----------------*/
+
+  .section-five p {
+    font-size: 14px;
+  }
+  
+  .section-five p:first-child {
+    max-width: 290px;
+  }
+
+  .section-five p:nth-child(3) {
+    max-width: 295px;
+  }
+
+  .section-five p:last-child {
+    max-width: 325px;
+    font-size: 16px;
+  }
+
+  /*----------------
+    Section Ten
+  ----------------*/
+  
+  .section-ten {
+    padding: 48px 0 42px 0;
+  }
+
+  .section-ten h1 {
+    font-size: 25px;
+  }
+
+  .section-ten p {
+    margin: 20px 0 25px 0;
+    max-width: 324px;
+    font-size: 14px;
+  }
+
+  .section-ten button {
+	  padding: 13px 20px;
+  }
+
+  .section-ten button i {
+    font-size: 15px;
+  }
+  
+  .section-ten button span {
+    margin-top: 1px;
+    margin-left: 6px;
+    font-size: 11px;
+  }
+
+}
+
