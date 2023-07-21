@@ -32,12 +32,12 @@ ul.grid {
 ----------------*/
 
 header {
-	width: 100%;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 	background-color: var(--light-grey-bg-color);
 	padding: 55px 0 45px 0;
+	width: 100%;
 }
 
 header img {
@@ -49,6 +49,7 @@ header img {
 ----------------*/
 
 section {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
