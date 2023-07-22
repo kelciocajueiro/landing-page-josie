@@ -27,6 +27,23 @@ ul.grid {
 	width: 100%;
 }
 
+.primary-color {
+	color: var(--primary-color);
+}
+
+.font-medium {
+	line-height: 110%;
+	font-family: 'Avenir Medium';
+}
+
+.font-oblique {
+	font-family: 'Avenir-HeavyOblique';
+}
+
+.underline {
+	text-decoration: underline;
+}
+
 /*----------------
  	Header
 ----------------*/
@@ -174,6 +191,35 @@ button.btn {
 }
 
 /*----------------
+ 	Section Two
+----------------*/
+
+.section-two {
+	color: var(--secondary-color);
+}
+
+.section-two h1 {
+	margin: 100px 0 48px 0;
+	max-width: 760px;
+	font-size: 42px;
+}
+
+.section-two h2 {
+	margin-top: 50px;
+	margin-bottom: 45px;
+	max-width: 610px;
+	font-size: 26px;
+}
+
+.section-two .first-dm {
+	content: url(../img/dm01.png);
+}
+
+.section-two .second-dm {
+	content: url(../img/dm02.png);
+}​
+
+/*----------------
  	Section Five
 ----------------*/
 
@@ -199,10 +245,6 @@ button.btn {
 
 .section-five p:last-child {
 	font-size: 22px;
-}
-
-.section-five p span {
-	font-family: 'Avenir-HeavyOblique';
 }
 
 /*----------------

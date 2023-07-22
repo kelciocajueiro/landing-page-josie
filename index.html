@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" media="screen and (min-width: 401px)" href="assets/css/styles.css" />
     <link rel="stylesheet" media="screen and (max-width: 400px)" href="assets/css/mobile.css" />
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-min.css" />
     <title>M&#233;todo Content Codes</title>
   </head>
 
@@ -16,7 +17,7 @@
 
     <!-- Logo -->
     <header>
-      <img src="assets/images/logo.svg" alt="Content Codes">
+      <img src="assets/icons/logo.svg" alt="Content Codes">
     </header>
 
     <section class="section-one">
@@ -25,17 +26,17 @@
       <h2>Assista o v&#237;deo e descubra:</h2>
       
       <div class="text-container max-w-[400px]">
-        <img src="assets/images/thin-arrow.svg">
+        <img src="assets/icons/thin-arrow.svg">
         <p>Porque seus posts n&#227;o d&#227;o certo nem quando voc&#234; aplica as estrat&#233;gias que te ensinam no mercado.</p>
       </div>
       
       <div class="text-container max-w-[670px]">
-        <img src="assets/images/thin-arrow.svg">
+        <img src="assets/icons/thin-arrow.svg">
         <p>O conceito que não &#233; ensinado em nenhuma faculdade, curso ou mentoria de marketing que &#233; essencial para a implementa&#231;&#227;o eficaz de qualquer estrat&#233;gia digital.</p>
       </div>
 
       <div class="text-container max-w-[435px]">
-        <img src="assets/images/thin-arrow.svg">
+        <img src="assets/icons/thin-arrow.svg">
         <p>A t&#233;cnica de comunica&#231;&#227;o que vai fazer seus seguidores vir at&#233; voc&#234; implorando pelo seu servi&#231;o ou produto.</p>
       </div>
 
@@ -44,36 +45,47 @@
       </div>
 
       <button class="btn" type="button">Quero transformar seguidor em cliente</button>
-      <img class="payment-forms" src="assets/images/payment-forms.svg" alt="Formas de Pagamento">
+      <img class="payment-forms" src="assets/icons/payment-forms.svg" alt="Formas de Pagamento">
 
       <ul class="grid">
         <li>
-          <img src="assets/images/clock.svg" alt="Acesso imediato">
+          <img src="assets/icons/clock.svg" alt="Acesso imediato">
           <h4>Acesso imediato</h4>
         </li>
         <li>
-          <img src="assets/images/zoom.svg" alt="Suporte ao vivo no Zoom">
+          <img src="assets/icons/zoom.svg" alt="Suporte ao vivo no Zoom">
           <h4>Suporte ao vivo no Zoom</h4>
         </li>
         <li>
-          <img src="assets/images/certificate.svg" alt="Garantia de 30 dias">
+          <img src="assets/icons/certificate.svg" alt="Garantia de 30 dias">
           <h4>Garantia de 30 dias</h4>
         </li>
       </div>
     </section>
 
+    <section class="section-two">
+      <h1 class="font-medium">J&#225; imaginou abrir o seu Instagram hoje e ver 
+        <span class="font-oblique primary-color">v&#225;rias mensagens</span> como essas?</h1>
+
+      <div class="first-dm"></div>
+
+      <h2 class="font-medium">Sei que talvez essa ainda n&#227;o seja a sua realidade.
+        Talvez ao oferecer seu servi&#231;o ou produto, &#233; isso que voc&#234; recebe na sua DM…</h2>
+
+      <div class="second-dm"></div>
+    </section>
 
     <section class="section-five">
       <p class="max-w-[580px]">
         A resposta &#233;: se todos os seus esforços de marketing estão direcionados para os n&#237;veis da base, 
         os seus resultados tendem a ser escassos e muitas vezes inexistentes, 
-        <span class="font-bold underline">porque mensagens concentradas na base n&#227;o geram impacto e nem a&#231;&#227;o.</span>
+        <span class="font-oblique underline">porque mensagens concentradas na base n&#227;o geram impacto e nem a&#231;&#227;o.</span>
       </p>
 
       <p class="max-w-[530px]">
         Ent&#227;o, mesmo que você tenha feito uma estrat&#233;gia de comunica&#231;&#227;o e at&#233; mesmo o branding do seu perfil, 
         mas tudo isso est&#225; atingindo apenas os n&#237;veis da base, 
-        <span class="font-bold underline">o seu conte&#250;do n&#227;o ter&#225; o resultado que voc&#234; espera.</span>
+        <span class="font-oblique underline">o seu conte&#250;do n&#227;o ter&#225; o resultado que voc&#234; espera.</span>
       </p>
 
       <p class="max-w-[620px]">
@@ -109,7 +121,7 @@
       <div class="accordion" x-data="{selected:null}">
         <h1>D&#250;vidas Frequentes</h1>
         <div class="acc-container" x-bind:class="selected == 0 && 'is-active'" @click="selected !== 0 ? selected = 0 : selected = null" x-transition.duration.500ms>
-          <div class="question">Funciona para quem est&#225; começando do zero ou n&#227;o tem experi&#234;ncia com Marketing?</div>
+          <div class="question">Funciona para quem est&#225; come&#231;ando do zero ou n&#227;o tem experi&#234;ncia com Marketing?</div>
           <div class="answer" x-show="selected == 0" x-transition:enter.duration.500ms>
             <p>Com certeza! O content CODES foi desenvolvido pra quem est&#225; come&#231;ando do
               zero no digital e no marketing. A &#250;nica coisa que voc&#234; precisa saber &#233; usar o

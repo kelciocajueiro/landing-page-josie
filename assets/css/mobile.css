@@ -5,6 +5,10 @@
 ----------------*/
 @media screen and (max-width: 400px) {
 
+  header {
+    background-color: white;
+  }
+
   header img {
     width: 100px;
   }
@@ -14,6 +18,7 @@
   ----------------*/
 
   .section-one {
+    background-color: white;
     padding: 0 25px;
   }
 
@@ -91,6 +96,31 @@
   .section-five p:last-child {
     max-width: 325px;
     font-size: 16px;
+  }
+
+  /*----------------
+    Section Two
+  ----------------*/
+
+  .section-two h1 {
+    margin: 18px 0 28px 0;
+    max-width: 245px;
+    font-size: 20px;
+  }
+
+  .section-two h2 {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    max-width: 300px;
+    font-size: 18px;
+  }
+
+  .section-two .first-dm {
+    content: url(../img/dm01-mobile.png);
+  }
+
+  .section-two .second-dm {
+    content: url(../img/dm02-mobile.png);
   }
 
   /*----------------
