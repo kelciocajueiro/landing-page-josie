@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+html {
+	height: 100%;
+}
+
 body {
   color: var(--primary-color);
 	-moz-osx-font-smoothing: grayscale;
@@ -26,6 +30,10 @@ ul.grid {
 	justify-content: center;
 	width: 100%;
 }
+
+/*----------------
+ 	Utilites
+----------------*/
 
 .primary-color {
 	color: var(--primary-color);
@@ -40,8 +48,25 @@ ul.grid {
 	font-family: 'Avenir-HeavyOblique';
 }
 
+.font-heavy {
+	font-family: 'Avenir-Heavy';
+}
+
 .underline {
 	text-decoration: underline;
+}
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+
+.italic {
+	font-style: oblique;
+}
+
+.debug {
+	border: 2px solid black;
 }
 
 /*----------------
@@ -116,16 +141,16 @@ button.btn {
 	font-size: 25px;
 }
 
-.section-one > .text-container {
+.section-one > .arrow-container {
 	margin-bottom: 20px;
 }
 
-.section-one .text-container img {
+.section-one .arrow-container img {
 	float: left;
 	margin-top: 5px;
 }
 
-.section-one .text-container p {
+.section-one .arrow-container p {
 	margin-left: 20px;
 	line-height: 130%;
 	font-family: 'Avenir Roman';
@@ -196,10 +221,11 @@ button.btn {
 
 .section-two {
 	color: var(--secondary-color);
+	padding: 50px 0;
 }
 
 .section-two h1 {
-	margin: 100px 0 48px 0;
+	margin: 50px 0 48px 0;
 	max-width: 760px;
 	font-size: 42px;
 }
@@ -217,7 +243,100 @@ button.btn {
 
 .section-two .second-dm {
 	content: url(../img/dm02.png);
-}​
+}
+
+/*----------------
+ 	Section Three
+----------------*/
+
+.section-three {
+	padding: 50px 190px 0 190px;
+}
+
+.section-three .text-container {
+	border-left: 1px solid var(--secondary-color);
+}
+
+.section-three .text-container p {
+	padding-left: 22px;
+	text-align: left;
+	font-size: 20px;
+}
+
+.section-three .text-container p:first-child {
+	padding-top: 10px;
+}
+
+.section-three .text-container p:last-child {
+	padding-bottom: 10px;
+}
+
+.section-three .img-responsive {
+	margin-left: auto;
+	max-width: 444px;
+	max-height: 354px;
+}
+
+.section-three .grey-box {
+	margin: 60px 0 30px 0;
+	border: 1px solid var(--secondary-color);
+	border-radius: 30px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	background-color: var(--light-grey-bg-color);
+	padding: 60px 0 50px 0;
+	width: 100%;
+}
+
+.section-three .grey-box > p {
+	font-size: 24px;
+}
+
+.section-three .grey-box > p:first-child {
+	max-width: 620px;
+}
+
+.section-three .grey-box > p:last-child {
+	max-width: 500px;
+}
+
+@media screen and (max-width: 780px) {
+  .section-three {
+		padding: 50px 0 0 0;
+  }
+
+	.section-three .grey-box {
+		border-right: none;
+		border-left: none;
+		border-radius: 0;
+		box-shadow: none;
+	}
+}
+
+.section-three .grey-box > * {
+	margin: 0 auto;
+}
+
+.section-three .grey-box h1 {
+	margin: 60px 0 45px 0;
+	max-width: 699px;
+	font-size: 38px;
+}
+
+.section-three .grey-box .arrow-container {
+	margin-bottom: 30px;
+	max-width: 704px;
+}
+
+.section-three .grey-box .arrow-container img {
+	float: left;
+	margin-top: 8px;
+}
+
+.section-three .grey-box .arrow-container p {
+	margin-left: 32px;
+	text-align: left;
+	font-size: 24px;
+}
 
 /*----------------
  	Section Five
@@ -241,10 +360,10 @@ button.btn {
 	color: white;
 	font-family: 'Avenir Medium';
 	font-size: 20px;
-}
 
-.section-five p:last-child {
-	font-size: 22px;
+	&:last-child {
+		font-size: 22px;
+	}
 }
 
 /*----------------

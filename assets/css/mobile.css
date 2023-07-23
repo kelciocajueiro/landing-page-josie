@@ -35,12 +35,12 @@
     font-size: 20px;
   }
 
-  .section-one .text-container img {
+  .section-one .arrow-container img {
     margin-top: 5px;
     width: 10px;
   }
 
-  .section-one .text-container p {
+  .section-one .arrow-container p {
     text-align: left;
     font-size: 12px;
   }
@@ -78,29 +78,12 @@
   }
 
   /*----------------
-    Section Five
-  ----------------*/
-
-  .section-five p {
-    font-size: 14px;
-  }
-  
-  .section-five p:first-child {
-    max-width: 290px;
-  }
-
-  .section-five p:nth-child(3) {
-    max-width: 295px;
-  }
-
-  .section-five p:last-child {
-    max-width: 325px;
-    font-size: 16px;
-  }
-
-  /*----------------
     Section Two
   ----------------*/
+
+  .section-two {
+    padding: 0 0 40px 0;
+  }
 
   .section-two h1 {
     margin: 18px 0 28px 0;
@@ -121,6 +104,64 @@
 
   .section-two .second-dm {
     content: url(../img/dm02-mobile.png);
+  }
+
+  /*----------------
+    Section Three
+  ----------------*/
+
+  .section-three {
+    padding: 0;
+  }
+
+  .section-three .text-container {
+    border-left: 0;
+  }
+
+  .section-three .text-container p {
+    padding-right: 30px;
+    font-size: 16px;
+  }
+
+  .section-three .img-responsive {
+    margin-top: 30px;
+    padding: 0 30px 0 30px;
+  }
+
+  .section-three .grey-box p {
+    max-width: 290px !important;
+    line-height: 130%;
+		font-size: 14px !important;
+	}
+
+  .section-three .grey-box h1 {
+	  margin: 25px 0 35px 0;
+    font-size: 26px;
+  }
+
+  .section-three .grey-box .arrow-container {
+    max-width: 334px;
+  }
+
+  /*----------------
+    Section Five
+  ----------------*/
+
+  .section-five p {
+    font-size: 14px;
+  }
+  
+  .section-five p:first-child {
+    max-width: 290px;
+  }
+
+  .section-five p:nth-child(3) {
+    max-width: 295px;
+  }
+
+  .section-five p:last-child {
+    max-width: 325px;
+    font-size: 16px;
   }
 
   /*----------------
@@ -153,6 +194,40 @@
     margin-top: 1px;
     margin-left: 6px;
     font-size: 11px;
+  }
+
+  /*----------------
+    Accordion
+  ----------------*/
+
+  .sec-faq {
+    padding: 0 15px 150px 15px;
+  }
+
+  .accordion h1 {
+    font-size: 24px;
+  }
+
+  .accordion .acc-container {
+    margin: 20px 0;
+  }
+
+  .accordion .acc-container .question {
+    max-width: 330px;
+    font-size: 14px;
+  }
+
+  .accordion .acc-container .question::before {
+    right: -30px;
+  }
+
+  .accordion .acc-container.is-active .question::before {
+    right: -26px;
+  }
+
+  .accordion .acc-container .answer {
+    padding: 20px 14% 0px 3px;
+    font-size: 10px;
   }
 
 }
