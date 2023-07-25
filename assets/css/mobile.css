@@ -3,7 +3,7 @@
 /*----------------
  	Smartphones
 ----------------*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
 
   header {
     background-color: white;
@@ -357,4 +357,3 @@
   }
 
 }
-

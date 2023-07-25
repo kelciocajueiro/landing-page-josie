@@ -77,7 +77,6 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: var(--light-grey-bg-color);
 	padding: 55px 0 45px 0;
 	width: 100%;
 }
@@ -104,10 +103,10 @@ button.btn {
 	text-transform: uppercase;
 	color: white;
 	font-family: 'Avenir Heavy';
+}
 
-	&:hover {
-		background: linear-gradient(180deg, rgba(1,204,97,1) 0%, rgba(11,190,96,1) 49%, rgba(12,171,87,1) 100%);
-  }
+button.btn:hover {
+	background: linear-gradient(180deg, rgba(1,204,97,1) 0%, rgba(11,190,96,1) 49%, rgba(12,171,87,1) 100%);
 }
 
 /*----------------
@@ -115,8 +114,18 @@ button.btn {
 ----------------*/
 
 .section-intro {
-	background-color: var(--light-grey-bg-color);
+	background-color: white;
 	color: var(--primary-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .section-intro {
+    background-image: url(../img/josie-bg.png);
+		background-size: cover;
+		background-position-x: center;
+		background-position-y: center;
+		color: var(--primary-color);
+  }
 }
 
 .section-intro h1 {
@@ -495,7 +504,56 @@ button.btn {
 }
 
 /*----------------
- 	Section Ten
+ 	Section Price
+----------------*/
+
+.section-price {
+	color: white;
+}
+
+.section-price > div {
+	width: 100%;
+}
+
+.section-price .brown-access {
+	background-color: var(--primary-color);
+	padding-top: 85px;
+	height: 707px;
+}
+
+.section-price .access-content {
+	margin: 0 auto;
+	width: 642px;
+	text-align: left;
+}
+
+.section-price .access-content > p {
+	font-size: 32px;
+	margin-bottom: 35px;
+}
+
+.section-price .check-container {
+	margin-bottom: 25px;
+	border-bottom: 0.5px solid white;
+}
+
+.section-price .check-container img {
+	float: left;
+	margin: 1px 17px 0 0;
+}
+
+.section-price .check-container p {
+	margin-bottom: 25px;
+	padding-left: 33px;
+	font-size: 18px;
+}
+
+.section-price .white-strip {
+	height: 355px;
+}
+
+/*----------------
+ 	Section Questions
 ----------------*/
 
 .section-questions {
