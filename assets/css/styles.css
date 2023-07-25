@@ -230,7 +230,7 @@ button.btn:hover {
 
 .section-two {
 	color: var(--black);
-	padding: 50px 0;
+	padding: 45px 0;
 }
 
 .section-two h1 {
@@ -509,6 +509,7 @@ button.btn:hover {
 
 .section-price {
 	color: white;
+	font-family: 'Avenir Medium';
 }
 
 .section-price > div {
@@ -516,18 +517,18 @@ button.btn:hover {
 }
 
 .section-price .brown-access {
-	background-color: var(--primary-color);
 	padding-top: 85px;
-	height: 707px;
+	height: 1062px;
+	background: linear-gradient(to top, #f8f8f8 0%, #f8f8f8 30%, var(--primary-color) 30%, var(--primary-color) 100%);
 }
 
-.section-price .access-content {
+.section-price .brown-access .access-content {
 	margin: 0 auto;
 	width: 642px;
 	text-align: left;
 }
 
-.section-price .access-content > p {
+.section-price .brown-access .access-content > p {
 	font-size: 32px;
 	margin-bottom: 35px;
 }
@@ -548,8 +549,58 @@ button.btn:hover {
 	font-size: 18px;
 }
 
-.section-price .white-strip {
-	height: 355px;
+.section-price .price-box {
+	margin: 50px auto 0px auto;
+	border: 0.50px solid var(--black);
+	border-radius: 10px;
+	background-color: white;
+	width: 597px;
+	height: 446px;
+	color: var(--black);
+}
+
+.section-price .price-box button {
+	margin-top: 30px;
+	padding: 28px 32px;
+	font-size: 18px;
+}
+
+.section-price .price-container > p {
+	display: block;
+	height: 175px;
+}
+
+.section-price .price-container .times {
+	font-size: 46px;
+}
+
+.section-price .price-container .price {
+	margin-left: 10px;
+	font-size: 133px;
+}
+
+.section-price .price-info {
+	margin: 0 auto;
+	max-width: 386px;
+}
+
+.section-price .price-info p:first-child {
+	font-size: 28px;
+}
+
+.section-price .price-info p:nth-child(2) {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.section-price .price-info p:last-child {
+	font-size: 21px;
+}
+
+.section-price .price-info hr {
+	margin: 28px auto;
+	border: 0.5px solid var(--black);
+	width: 40px;
 }
 
 /*----------------
@@ -570,8 +621,6 @@ button.btn:hover {
 .section-questions p {
 	margin: 35px 0;
 	max-width: 500px;
-	line-height: 110%;
-	font-family: 'Avenir Medium';
 	font-size: 20px;
 }
 
