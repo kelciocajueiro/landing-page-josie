@@ -291,6 +291,137 @@
   }
 
   /*----------------
+    Section Devices
+  ----------------*/
+
+  .section-devices {
+    padding: 40px 0 50px 0;
+  }
+
+  .section-devices h1 {
+    max-width: 350px;
+    font-size: 18px;
+  }
+
+  .section-devices .text p {
+    margin-bottom: 20px;
+    max-width: 281px;
+    font-size: 15px;
+  }
+
+  .section-devices .second-img {
+    content: url(../img/josie-not-alone-mobile.png);
+    width: 350px;
+    height: 640px;
+  }
+
+  .section-devices .text-container  {
+    top: 30px;
+    left: 26px;
+    width: 315px;
+  }
+  
+  .section-devices .text-container h1 {
+    max-width: 275px;
+    font-size: 20px;
+  }
+
+  .section-devices .text-container hr {
+    width: 310px;
+  }
+
+  .section-devices .text-container img {
+    top: -13px;
+    margin-left: 94%;
+    width: 22px;
+  }
+
+  .section-devices .text-container p {
+    max-width: 297px;
+    font-size: 12px;
+  }
+
+  .section-devices .text-container p:last-child {
+    margin-top: 18px;
+    max-width: 490px;
+  }
+  
+  /*----------------
+    Section Price
+  ----------------*/
+
+  .section-price .brown-access {
+    height: 700px;
+  }
+
+  .section-price .brown-access .access-content {
+    margin: 50px auto 0 auto;
+    padding: 0 18px;
+    width: 100%;
+  }
+
+  .section-price .brown-access .access-content > p {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  .section-price .check-container {
+    margin-bottom: 10px;
+  }
+
+  .section-price .check-container img {
+    width: 15px;
+  }
+
+  .section-price .check-container p {
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .section-price .price-box {
+    width: 350px;
+    height: 285px;
+  }
+
+  .section-price .price-box button {
+    margin-top: 22px;
+    padding: 15px 22px;
+    font-size: 11px;
+  }
+
+  .section-price .price-container > p {
+    height: 105px;
+  }
+
+  .section-price .price-container .times {
+    font-size: 28px;
+  }
+  
+  .section-price .price-container .price {
+    margin-left: 0;
+    font-size: 80px;
+  }
+
+  .section-price .price-info p:first-child {
+    font-size: 17px;
+  }
+
+  .section-price .price-info p:nth-child(2) {
+    margin: 20px auto 0 auto;
+    max-width: 245px;
+    font-size: 10px;
+  }
+  
+  .section-price .price-info p:last-child {
+    font-size: 12px;
+  }
+
+  .section-price .price-info hr {
+    margin: 20px auto;
+    width: 24px;
+  }
+
+  /*----------------
     Section Ten
   ----------------*/
   

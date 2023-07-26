@@ -504,6 +504,73 @@ button.btn:hover {
 }
 
 /*----------------
+ 	Section Devices
+----------------*/
+
+.section-devices {
+	padding: 110px 0 65px 0;
+}
+
+.section-devices h1 {
+	max-width: 757px;
+	font-size: 32px;
+}
+
+.section-devices .text {
+	max-width: 461px;
+}
+
+.section-devices .text p {
+	margin-bottom: 40px;
+	line-height: 130%;
+	font-size: 24px;
+}
+
+.section-devices .second-img {
+	content: url(../img/josie-not-alone-min.png);
+	display: inline-block;
+	width: 1068px;
+	height: 561px;
+}
+
+.section-devices .text-container  {
+	position: absolute;
+	top: 90px;
+	left: 115px;
+	width: 520px;
+	text-align: left;
+}
+
+.section-devices .text-container h1 {
+	max-width: 414px;
+	line-height: 125%;
+	font-size: 32px;
+}
+
+.section-devices .text-container hr {
+	margin-top: 23px;
+	border: 0.5px solid var(--black);
+	width: 420px;
+}
+
+.section-devices .text-container img {
+	position: relative;
+	margin-left: 79%;
+	top: -16px;
+}
+
+.section-devices .text-container p {
+	max-width: 470px;
+	line-height: 130%;
+	font-size: 20px;
+}
+
+.section-devices .text-container p:last-child {
+	margin-top: 30px;
+	max-width: 490px;
+}
+
+/*----------------
  	Section Price
 ----------------*/
 
@@ -517,13 +584,16 @@ button.btn:hover {
 }
 
 .section-price .brown-access {
-	padding-top: 85px;
 	height: 1062px;
 	background: linear-gradient(to top, #f8f8f8 0%, #f8f8f8 30%, var(--primary-color) 30%, var(--primary-color) 100%);
 }
 
+.section-price .brown-access > img {
+	margin: -1px auto;
+}
+
 .section-price .brown-access .access-content {
-	margin: 0 auto;
+	margin: 60px auto 0 auto;
 	width: 642px;
 	text-align: left;
 }
@@ -536,6 +606,10 @@ button.btn:hover {
 .section-price .check-container {
 	margin-bottom: 25px;
 	border-bottom: 0.5px solid white;
+}
+
+.section-price .check-container:last-child {
+	border-bottom: none;
 }
 
 .section-price .check-container img {
