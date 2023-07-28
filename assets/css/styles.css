@@ -15,14 +15,18 @@
 }
 
 html {
-	height: 100%;
+	scrollbar-width: none;
 }
 
 body {
-	overflow: hidden;
   color: var(--black);
 	-moz-osx-font-smoothing: grayscale;
+	-ms-overflow-style: none;
 	-webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 ul.grid {
@@ -434,21 +438,14 @@ button.btn:hover {
 }
 
 /*----------------
- 	Gradient
-----------------*/
-
-.sec-gradient {
-	background: linear-gradient(180deg, white 0%, #F3F3F3 100%);
-	height: 20px;
-}
-
-/*----------------
  	Section Knowledges
 ----------------*/
 
 .section-knowledges {
-	background-color: var(--light-grey-bg-color);
+	padding: 80px 0;
 	font-family: 'Avenir Medium';
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+	background: linear-gradient(180deg, white 0%, #F3F3F3 100%); 
 }
 
 .section-knowledges .h1-container {
@@ -477,6 +474,75 @@ button.btn:hover {
 	max-width: 500px;
 	line-height: 110%;
 	font-size: 20px;
+}
+
+.section-knowledges .pilar {
+	margin: 75px auto;
+	text-align: left;
+	font-family: 'Avenir-Heavy';
+}
+
+.section-knowledges .pilar .reverse {
+	order: -1;
+}
+
+.section-knowledges .pilar span {
+	text-transform: uppercase;
+	color: var(--primary-color);
+	font-size: 18px;
+}
+
+.section-knowledges .pilar .title {
+	margin-top: 15px;
+	line-height: 110%;
+	font-size: 28px;
+}
+
+.section-knowledges .pilar .content {
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.section-knowledges .pilar .img-responsive {
+	margin: auto;
+}
+
+.section-knowledges .pilar-one .content {
+	max-width: 443px;
+}
+
+.section-knowledges .pilar-one .img-responsive {
+	width: 253px;
+}
+
+.section-knowledges .pilar-two .content {
+	max-width: 524px;
+}
+
+.section-knowledges .pilar-two .img-responsive {
+	width: 430px;
+	margin-left: 0;
+}
+
+.section-knowledges .pilar-three .content {
+	max-width: 464px;
+}
+
+.section-knowledges .pilar-three .img-responsive {
+	width: 247px;
+}
+
+.section-knowledges .pilar-four .content {
+	max-width: 553px;
+}
+
+.section-knowledges .pilar-four .img-responsive {
+	width: 332px;
+	margin-left: 0;
+}
+
+.section-knowledges .knowledge-dms {
+	content: url(../img/knowledge-dms.png);
 }
 
 /*----------------
