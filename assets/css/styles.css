@@ -390,13 +390,14 @@ button.btn:hover {
 
 .section-brown {
 	background-color: var(--primary-color);
-	padding: 20px 0 125px 0;
+	padding-top: 30px;
+	height: 590px;
 }
 
 .section-brown hr {
 	margin-top: 45px;
 	margin-bottom: 5px;
-	border: 1px solid white;
+	border: 0.5px solid white;
 	width: 42px;
 }
 
@@ -410,6 +411,12 @@ button.btn:hover {
 
 .section-brown p:last-child {
 	font-size: 22px;
+}
+
+.section-brown button {
+	margin-top: 66px;
+	padding: 20px 45px;
+	font-size: 18px;
 }
 
 /*----------------

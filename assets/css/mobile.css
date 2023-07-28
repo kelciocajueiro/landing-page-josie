@@ -203,9 +203,15 @@
     max-width: 295px;
   }
 
-  .section-brown p:last-child {
+  .section-brown .p4 {
     max-width: 325px;
     font-size: 16px;
+  }
+
+  .section-brown button {
+    margin-top: 35px;
+    padding: 13px 27px;
+    font-size: 10px;
   }
 
   /*----------------
