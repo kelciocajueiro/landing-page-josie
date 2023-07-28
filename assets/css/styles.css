@@ -314,6 +314,19 @@ button.btn:hover {
 }
 
 @media screen and (max-width: 780px) {
+	.section-two h1 {
+		max-width: 650px;
+		font-size: 36px;
+	}
+
+	.section-two .first-dm {
+    content: url(../img/dm01-mobile.png);
+  }
+
+  .section-two .second-dm {
+    content: url(../img/dm02-mobile.png);
+  }
+
   .section-three {
 		padding: 50px 0 0 0;
   }
@@ -436,12 +449,6 @@ button.btn:hover {
 .section-six .img-responsive {
 	content: url(../img/more-dms.png);
 	width: 1127px;
-}
-
-@media screen and (max-width: 780px) {
-  .section-six .img-responsive {
-		width: 1050px;
-	}
 }
 
 /*----------------
@@ -919,4 +926,89 @@ footer {
 	padding: 20px 0;
 	color: var(--black);
   font-family: 'Avenir Medium';
+}
+
+/*-------------------------
+ 	Media Queries for iPad
+-------------------------*/
+
+@media screen and (min-width: 577px) and (max-width: 780px) {
+	.section-two {
+		padding: 0;
+	}
+
+  .section-three .middle-lg {
+		padding: 0 15px;
+  }
+
+	.section-neuro-levels .img-responsive {
+		width: 100%;
+	}
+
+	.section-six .img-responsive {
+		width: 90%;
+	}
+
+	.section-devices .second-img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.section-devices .text-container {
+		top: 47px;
+		left: 54px;
+	}
+
+	.section-devices .text-container img {
+		margin-left: 73%;
+	}
+	
+	.section-devices .text-container h1 {
+		max-width: 365px;
+		font-size: 24px;
+	}
+
+	.section-devices .text-container p {
+		max-width: 400px;
+		font-size: 16px;
+	}
+
+	.section-devices .text-container hr {
+		margin-top: 16px;
+		width: 400px;
+	}
+
+	.section-price .brown-access {
+		height: 1020px;
+	}
+
+	.section-history {
+    padding: 50px 20px 0 20px;
+  }
+
+  .section-history .img-history {
+		margin: 10px auto;
+    width: 50%;
+  }
+
+	.section-history .img-casal-legendario {
+		margin: auto;
+		width: 80%;
+	}
+
+	.section-history .text-container {
+    padding-left: 0px !important;
+  }
+
+	.section-history .mobile-first-col {
+		order: -1;
+	}
+
+	.section-history .middle-lg {
+		margin: 40px 0 55px 0;
+	}
+
+	.section-knowledges .knowledge-dms {
+		width: 95%
+	}
 }
